@@ -1,0 +1,27 @@
+    font-size: 19px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+  .container {
+    max-width: 1140px;
+  }
+}
+/* Add your custom responsive classes */
+.hide-mobile {
+  display: none;
+}
+@media (min-width: 768px) {
+  .hide-mobile {
+    display: block;
+  }
+  .hide-desktop {
+    display: none;
+  }
+}
