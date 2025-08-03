@@ -35,7 +35,7 @@ const Navbar = () => {
         </a>
         {/* My Resume Button */}
        <a
-  href="/Shivam_Sonawane_Resume.pdf"
+  href="src/assets/Shivam_Sonawane_Resume.pdf"
   download="Shivam_Sonawane_Resume.pdf"
   className="text-md bg-blue-600 hover:bg-blue-700 rounded-lg px-3 py-1 transition-all duration-300 ml-3 font-semibold"
 >
